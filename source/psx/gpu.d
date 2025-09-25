@@ -699,6 +699,7 @@ void gp0_quad_tex_blend_opaque(PsxGpu* gpu, uint val)
     GpuPos p3 = posFromGp0(gpu.gp0_command.buffer[5]);
     GpuPos p4 = posFromGp0(gpu.gp0_command.buffer[7]);
 
+    // No textures yet, draw a grey solid quad for now
     GpuColor c = GpuColor(128, 128, 128);
 
     gpu.drawTriangle(p1, p2, p3, c, c, c);
