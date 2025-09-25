@@ -22,3 +22,9 @@ docs/
 
 # Code coverage
 *.lst
+
+# Debugger files
+*.pdb
+
+# Various binaries
+*.bin
